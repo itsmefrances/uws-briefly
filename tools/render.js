@@ -19,7 +19,7 @@ body { font-family: "Inter", sans-serif; background: #f3f1ec; color: #15201d;
   font-size: 28px; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; }
 .brand { color: #1f6b5c; }
 .count { color: #7b8682; font-variant-numeric: tabular-nums; letter-spacing: .06em; }
-.cat { display: inline-block; font-size: 30px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase;
+.cat { display: inline-block; font-size: 34px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase;
   color: #f3f1ec; background: #1f6b5c; padding: 10px 20px; border-radius: 6px; margin-bottom: 40px; }
 .text { font-family: "Inter Display", "Inter", sans-serif; font-weight: 700; line-height: 1.12;
   letter-spacing: -.015em; text-wrap: balance; }
@@ -43,7 +43,7 @@ const slides = [];
 slides.push(page('cover', `
   <div class="top"><span class="brand">Upper West Side</span><span class="count">1/${total}</span></div>
   <div><div class="title">UWS<br>Briefly</div><div class="dates">${esc(ed.dates)}</div></div>
-  <div class="sub">This week's neighborhood news in one line each.&nbsp;Swipe&nbsp;→</div>`));
+  <div class="sub">The neighborhood's news in one line each.&nbsp;Swipe&nbsp;→</div>`));
 
 ed.stories.forEach((s, i) => {
   const size = s.text.length > 110 ? 70 : s.text.length > 80 ? 78 : 88;
@@ -53,13 +53,13 @@ ed.stories.forEach((s, i) => {
     <div class="src">Via <b>${esc(s.src)}</b></div>`));
 });
 
-// Closing slide: credits every source used in this edition (ed.sources, or all three by default).
-const sources = ed.sources || ['West Side Rag', 'I Love the Upper West Side', 'The West Sider'];
+// Closing slide: sends people to the link in bio. No site names here; credit goes on each
+// story slide ("Via ...") and in the caption.
 slides.push(page('cover', `
   <div class="top"><span class="brand">UWS Briefly</span><span class="count">${total}/${total}</span></div>
-  <div><div class="text" style="font-size:84px">Read the full stories</div>
-    <div class="list" style="margin-top:44px">Links to every story<br>are in our bio.</div></div>
-  <div class="sub">Reporting by ${sources.map(esc).join(', ')}.</div>`));
+  <div><div class="title" style="font-size:150px">Want the<br>whole story?</div>
+    <div class="dates">Link in bio. Every article is there.</div></div>
+  <div class="sub">Follow @uws_briefly for the neighborhood, minus the fluff.</div>`));
 
 (async () => {
   const browser = await chromium.launch();

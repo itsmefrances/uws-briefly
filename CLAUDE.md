@@ -12,13 +12,22 @@ news from West Side Rag, I Love the Upper West Side and The West Sider, with cre
 3. Merge stories that cover the same event into one item that links to every source covering it.
    The West Sider publishes one long weekly issue: pull only the news items the other two sources
    have not already covered in the past week (check `links.json`).
-4. Write one plain sentence per story: who/what/where/when, in your own words. No clickbait, no
-   teasing, no opinions, nothing the article does not state. Never copy sentences or use the
-   sites' photos. For crime stories, say "accused" or "charged" unless there is a conviction.
+4. Write one or two short sentences per story in the house voice: a longtime Upper West Sider who
+   is direct and a bit annoyed by everything. Plain words, dry asides ("At the salad place.",
+   "It took more than a year."), never cute. The facts stay exact: who/what/where/when, nothing the
+   article does not state, no clickbait or teasing. Never copy sentences or use the sites' photos.
+   - No jokes or asides about deaths, violence, missing people or victims. Just say it straight.
+   - Crime: say "charged", "accused" or "indicted" unless there is a conviction or guilty plea.
+   - Each story gets a blunt label (`cat`): "Someone died", "New restaurant", "Closing", "Roaches",
+     "New building", "Landlord", "Crime", "Cop accused", "Subway mess", "Finally", "Neighbors are mad".
+     Labels must not assert guilt ("Cop accused", not "Cop gone bad", until a conviction) and must
+     not insult a named private person or business beyond what the article reports.
 5. Create `editions/YYYY-MM-DD/edition.json` (same shape as earlier editions: `dates`, `stories`
    with `cat`, `text`, `src`; optional `sources`; `caption`). At most 8 story slides, most
    important first; extra stories go in the caption only. The caption lists each one-liner, then
-   "Links to every story are in our bio." and "Reporting by <sources used>." and
+   "Links to every story are in our bio." and "Reporting by <sources used>." (the caption and the
+   "Via" line on each slide are where sources get credit; the closing slide only points to the
+   link in bio and names no sites) and
    `#upperwestside #uws #nyc`. Run `node tools/render.js editions/<date>/edition.json editions/<date>`
    and look at one or two slides to check nothing is clipped.
 6. Add each story to the top of `links.json` (`date`, `headline`, `links` as `[source, url]` pairs,

@@ -1,18 +1,1270 @@
 [
- {"date": "2026-11-11", "headline": "Stanley Zabar, co-owner of Zabar's, died Nov. 9 at 94", "links": [["I Love the Upper West Side", "https://www.ilovetheupperwestside.com/stanley-zabar-has-died-at-94/"]]},
- {"date": "2026-11-11", "headline": "Joe Kidd Cantina opened Nov. 6 in the old Emerald Inn space on W. 72nd", "links": [["West Side Rag", "https://www.westsiderag.com/2026/11/11/openings-eataly-caffe-studio-claydate-polestar"], ["I Love the Upper West Side", "https://www.ilovetheupperwestside.com/western-themed-bar-restaurant-takes-over-the-old-emerald-inn-space/"]]},
- {"date": "2026-11-11", "headline": "Also opening: Eataly Caffè, Studio Claydate and a Polestar showroom", "links": [["West Side Rag", "https://www.westsiderag.com/2026/11/11/openings-eataly-caffe-studio-claydate-polestar"]]},
- {"date": "2026-11-10", "headline": "Suspect in the Oct. 24 Central Park rape arrested in Miami", "links": [["West Side Rag", "https://www.westsiderag.com/2026/11/10/man-accused-of-central-park-rape-taken-into-custody-while-working-at-a-burger-king-in-florida-nypd"]]},
- {"date": "2026-11-10", "headline": "First rendering of the UWS's future tallest tower, 1,182 feet at W. 66th", "links": [["West Side Rag", "https://www.westsiderag.com/2026/11/10/first-rendering-revealed-of-the-future-tallest-building-on-the-upper-west-side"]]},
- {"date": "2026-11-10", "headline": "Consuelo (W. 104th) made The Infatuation's best new NYC restaurants of 2026", "links": [["I Love the Upper West Side", "https://www.ilovetheupperwestside.com/one-upper-west-side-restaurant-made-the-infatuations-list-of-nycs-best-new-restaurants-of-2026/"]]},
- {"date": "2026-11-09", "headline": "A flower shop, Verdi Blooms, is coming to the Verdi Square kiosk in 2027", "links": [["West Side Rag", "https://www.westsiderag.com/2026/11/09/long-vacant-upper-west-side-kiosk-to-become-flower-shop"]]},
- {"date": "2026-11-09", "headline": "What residents want from new reps Micah Lasher and Eli Northrup", "links": [["West Side Rag", "https://www.westsiderag.com/2026/11/09/what-upper-west-siders-want-their-newly-elected-representatives-to-prioritize"]]},
- {"date": "2026-11-09", "headline": "Zoe Saldaña filming “Still Life” near W. 60th & Columbus, Nov. 11–13", "links": [["I Love the Upper West Side", "https://www.ilovetheupperwestside.com/zoe-saldana-is-bringing-her-new-movie-to-the-upper-west-side-this-week/"]]},
- {"date": "2026-11-09", "headline": "Dish of the week: ma jiang mian at The Tang, W. 105th & Amsterdam", "links": [["West Side Rag", "https://www.westsiderag.com/2026/11/09/heres-the-dish-the-tangs-ma-jiang-mian"]]},
- {"date": "2026-11-09", "headline": "The JCC hired Talia Wallman to run its 20s + 30s programs", "links": [["I Love the Upper West Side", "https://www.ilovetheupperwestside.com/the-jccs-20s-30s-community-has-a-new-program-director/"]]},
- {"date": "2026-11-06", "headline": "The “You've Got Mail” townhouse on W. 89th is listed at $3.95 million", "links": [["I Love the Upper West Side", "https://www.ilovetheupperwestside.com/the-youve-got-mail-townhouse-where-meg-ryans-character-lived-is-for-sale/"]]},
- {"date": "2026-11-06", "headline": "Free special education resource fair at the JCC, Nov. 18", "links": [["I Love the Upper West Side", "https://www.ilovetheupperwestside.com/schools-services-and-support-a-free-special-education-and-resource-fair-is-returning-this-month/"]]},
- {"date": "2026-11-05", "headline": "Brush fire burned above the Morningside Park waterfall, Nov. 3", "links": [["I Love the Upper West Side", "https://www.ilovetheupperwestside.com/brush-fire-burns-for-nearly-two-hours-near-a-beloved-morningside-park-landmark/"]]},
- {"date": "2026-11-05", "headline": "Modest Needs charity founder sentenced to 8 years for misusing donations", "links": [["I Love the Upper West Side", "https://www.ilovetheupperwestside.com/he-started-a-charity-for-struggling-workers-then-used-it-to-pay-for-his-columbus-circle-apartment/"]]},
- {"date": "2026-11-05", "headline": "AMNH origami holiday tree returns Nov. 23", "links": [["I Love the Upper West Side", "https://www.ilovetheupperwestside.com/the-natural-history-museums-origami-holiday-tree-is-back-and-this-year-its-going-for-gold/"]]}
+ {
+  "date": "2026-11-11",
+  "headline": "Stanley Zabar, co-owner of Zabar's, died Nov. 9 at 94",
+  "links": [
+   [
+    "I Love the Upper West Side",
+    "https://www.ilovetheupperwestside.com/stanley-zabar-has-died-at-94/"
+   ]
+  ]
+ },
+ {
+  "date": "2026-11-11",
+  "headline": "Joe Kidd Cantina opened Nov. 6 in the old Emerald Inn space on W. 72nd",
+  "links": [
+   [
+    "West Side Rag",
+    "https://www.westsiderag.com/2026/11/11/openings-eataly-caffe-studio-claydate-polestar"
+   ],
+   [
+    "I Love the Upper West Side",
+    "https://www.ilovetheupperwestside.com/western-themed-bar-restaurant-takes-over-the-old-emerald-inn-space/"
+   ]
+  ]
+ },
+ {
+  "date": "2026-11-11",
+  "headline": "Also opening: Eataly Caffè, Studio Claydate and a Polestar showroom",
+  "links": [
+   [
+    "West Side Rag",
+    "https://www.westsiderag.com/2026/11/11/openings-eataly-caffe-studio-claydate-polestar"
+   ]
+  ]
+ },
+ {
+  "date": "2026-11-10",
+  "headline": "Suspect in the Oct. 24 Central Park rape arrested in Miami",
+  "links": [
+   [
+    "West Side Rag",
+    "https://www.westsiderag.com/2026/11/10/man-accused-of-central-park-rape-taken-into-custody-while-working-at-a-burger-king-in-florida-nypd"
+   ]
+  ]
+ },
+ {
+  "date": "2026-11-10",
+  "headline": "First rendering of the UWS's future tallest tower, 1,182 feet at W. 66th",
+  "links": [
+   [
+    "West Side Rag",
+    "https://www.westsiderag.com/2026/11/10/first-rendering-revealed-of-the-future-tallest-building-on-the-upper-west-side"
+   ]
+  ]
+ },
+ {
+  "date": "2026-11-10",
+  "headline": "Consuelo (W. 104th) made The Infatuation's best new NYC restaurants of 2026",
+  "links": [
+   [
+    "I Love the Upper West Side",
+    "https://www.ilovetheupperwestside.com/one-upper-west-side-restaurant-made-the-infatuations-list-of-nycs-best-new-restaurants-of-2026/"
+   ]
+  ]
+ },
+ {
+  "date": "2026-11-09",
+  "headline": "A flower shop, Verdi Blooms, is coming to the Verdi Square kiosk in 2027",
+  "links": [
+   [
+    "West Side Rag",
+    "https://www.westsiderag.com/2026/11/09/long-vacant-upper-west-side-kiosk-to-become-flower-shop"
+   ]
+  ]
+ },
+ {
+  "date": "2026-11-09",
+  "headline": "What residents want from new reps Micah Lasher and Eli Northrup",
+  "links": [
+   [
+    "West Side Rag",
+    "https://www.westsiderag.com/2026/11/09/what-upper-west-siders-want-their-newly-elected-representatives-to-prioritize"
+   ]
+  ]
+ },
+ {
+  "date": "2026-11-09",
+  "headline": "Zoe Saldaña filming “Still Life” near W. 60th & Columbus, Nov. 11–13",
+  "links": [
+   [
+    "I Love the Upper West Side",
+    "https://www.ilovetheupperwestside.com/zoe-saldana-is-bringing-her-new-movie-to-the-upper-west-side-this-week/"
+   ]
+  ]
+ },
+ {
+  "date": "2026-11-09",
+  "headline": "Dish of the week: ma jiang mian at The Tang, W. 105th & Amsterdam",
+  "links": [
+   [
+    "West Side Rag",
+    "https://www.westsiderag.com/2026/11/09/heres-the-dish-the-tangs-ma-jiang-mian"
+   ]
+  ]
+ },
+ {
+  "date": "2026-11-09",
+  "headline": "The JCC hired Talia Wallman to run its 20s + 30s programs",
+  "links": [
+   [
+    "I Love the Upper West Side",
+    "https://www.ilovetheupperwestside.com/the-jccs-20s-30s-community-has-a-new-program-director/"
+   ]
+  ]
+ },
+ {
+  "date": "2026-11-06",
+  "headline": "The “You've Got Mail” townhouse on W. 89th is listed at $3.95 million",
+  "links": [
+   [
+    "I Love the Upper West Side",
+    "https://www.ilovetheupperwestside.com/the-youve-got-mail-townhouse-where-meg-ryans-character-lived-is-for-sale/"
+   ]
+  ]
+ },
+ {
+  "date": "2026-11-06",
+  "headline": "Free special education resource fair at the JCC, Nov. 18",
+  "links": [
+   [
+    "I Love the Upper West Side",
+    "https://www.ilovetheupperwestside.com/schools-services-and-support-a-free-special-education-and-resource-fair-is-returning-this-month/"
+   ]
+  ]
+ },
+ {
+  "date": "2026-11-05",
+  "headline": "Brush fire burned above the Morningside Park waterfall, Nov. 3",
+  "links": [
+   [
+    "I Love the Upper West Side",
+    "https://www.ilovetheupperwestside.com/brush-fire-burns-for-nearly-two-hours-near-a-beloved-morningside-park-landmark/"
+   ]
+  ]
+ },
+ {
+  "date": "2026-11-05",
+  "headline": "Modest Needs charity founder sentenced to 8 years for misusing donations",
+  "links": [
+   [
+    "I Love the Upper West Side",
+    "https://www.ilovetheupperwestside.com/he-started-a-charity-for-struggling-workers-then-used-it-to-pay-for-his-columbus-circle-apartment/"
+   ]
+  ]
+ },
+ {
+  "date": "2026-11-05",
+  "headline": "AMNH origami holiday tree returns Nov. 23",
+  "links": [
+   [
+    "I Love the Upper West Side",
+    "https://www.ilovetheupperwestside.com/the-natural-history-museums-origami-holiday-tree-is-back-and-this-year-its-going-for-gold/"
+   ]
+  ]
+ },
+ {
+  "date": "2026-11-04",
+  "headline": "Micah Lasher won the NY-12 seat in Congress. Hochul won too.",
+  "links": [
+   [
+    "West Side Rag",
+    "https://www.westsiderag.com/2026/11/03/uws-election-results-kathy-hochul-wins-reelection-for-new-york-governor-micah-lasher-jumps-out-to-large-lead-in-uws-congressional-race"
+   ],
+   [
+    "I Love the Upper West Side",
+    "https://www.ilovetheupperwestside.com/micah-lasher-is-headed-to-congress-plus-the-rest-of-the-upper-west-sides-election-results/"
+   ]
+  ]
+ },
+ {
+  "date": "2026-11-04",
+  "headline": "A 41-year-old woman was robbed at knifepoint at Central Park West and 107th on Oct. 27.",
+  "links": [
+   [
+    "West Side Rag",
+    "https://www.westsiderag.com/2026/11/04/woman-robbed-at-knifepoint-on-central-park-west-nypd"
+   ],
+   [
+    "I Love the Upper West Side",
+    "https://www.ilovetheupperwestside.com/police-seek-suspect-who-robbed-woman-at-knifepoint-on-the-uws/"
+   ]
+  ]
+ },
+ {
+  "date": "2026-11-04",
+  "headline": "Dead chickens turned up on the Broadway median near 90th again. Fifth time since 2024.",
+  "links": [
+   [
+    "West Side Rag",
+    "https://www.westsiderag.com/2026/11/04/another-apparent-chicken-sacrifice-takes-place-on-the-upper-west-side"
+   ]
+  ]
+ },
+ {
+  "date": "2026-11-03",
+  "headline": "A 24-year-old woman running her first NYC Marathon collapsed in Central Park, two miles from the finish, and died.",
+  "links": [
+   [
+    "I Love the Upper West Side",
+    "https://www.ilovetheupperwestside.com/former-college-athlete-24-dies-after-collapsing-about-two-miles-from-the-marathon-finish/"
+   ]
+  ]
+ },
+ {
+  "date": "2026-11-03",
+  "headline": "A 10-story condo with exactly four apartments is planned for 79th and Columbus, across from the museum.",
+  "links": [
+   [
+    "I Love the Upper West Side",
+    "https://www.ilovetheupperwestside.com/10-story-condo-planned-for-prominent-uws-corner/"
+   ]
+  ]
+ },
+ {
+  "date": "2026-11-02",
+  "headline": "The McDonald's at 2726 Broadway, near 104th, closed for good on Halloween.",
+  "links": [
+   [
+    "West Side Rag",
+    "https://www.westsiderag.com/2026/11/02/upper-west-side-mcdonalds-unexpectedly-closes"
+   ]
+  ]
+ },
+ {
+  "date": "2026-10-29",
+  "headline": "Workers took the roof off the water tower where the barn owls nest. The building got a cease-and-desist order.",
+  "links": [
+   [
+    "West Side Rag",
+    "https://www.westsiderag.com/2026/10/29/upper-west-side-barn-owls-water-tower-home-loses-its-roof"
+   ]
+  ]
+ },
+ {
+  "date": "2026-10-29",
+  "headline": "Zip code 10024 is now the wealthiest in the country, says the Business Journals. 10023 is second. Your landlord knows.",
+  "links": [
+   [
+    "I Love the Upper West Side",
+    "https://www.ilovetheupperwestside.com/the-upper-west-side-just-knocked-chelsea-off-its-perch-in-a-national-wealth-ranking/"
+   ]
+  ]
+ },
+ {
+  "date": "2026-10-28",
+  "headline": "Wegmans confirmed it's opening at 1932 Broadway. The sign went up in June 2024. It's still getting permits.",
+  "links": [
+   [
+    "West Side Rag",
+    "https://www.westsiderag.com/2026/10/28/wegmans-confirms-it-will-open-on-the-upper-west-side"
+   ]
+  ]
+ },
+ {
+  "date": "2026-10-28",
+  "headline": "Trek's bike shop at 156 W. 72nd closes Nov. 7. Cold Stone is coming to 2303 Broadway, if that helps.",
+  "links": [
+   [
+    "West Side Rag",
+    "https://www.westsiderag.com/2026/10/28/openings-barberinos-beautyspace-rowan-blu-cafe-empire-szechuan-kyoto-cold-stone-creamery"
+   ],
+   [
+    "West Side Rag",
+    "https://www.westsiderag.com/2026/10/23/popular-cold-stone-creamery-will-open-on-the-upper-west-side"
+   ],
+   [
+    "I Love the Upper West Side",
+    "https://www.ilovetheupperwestside.com/cold-stone-creamery-is-returning-to-the-upper-west-side/"
+   ]
+  ]
+ },
+ {
+  "date": "2026-10-26",
+  "headline": "An NYPD officer's lawsuit accuses her former captain at the Columbus Circle transit district of harassment.",
+  "links": [
+   [
+    "I Love the Upper West Side",
+    "https://www.ilovetheupperwestside.com/lawsuit-nypd-captain-changed-his-pants-in-front-of-her-and-texted-that-hed-leave-his-wife/"
+   ]
+  ]
+ },
+ {
+  "date": "2026-10-26",
+  "headline": "A firefighter was hurt in a 10th-floor apartment fire on Monday morning.",
+  "links": [
+   [
+    "West Side Rag",
+    "https://www.westsiderag.com/2026/10/26/firefighter-injured-in-upper-west-side-blaze-fdny"
+   ]
+  ]
+ },
+ {
+  "date": "2026-10-26",
+  "headline": "A car went through the fence at the 72nd Street station early Monday. The driver left it there.",
+  "links": [
+   [
+    "West Side Rag",
+    "https://www.westsiderag.com/2026/10/26/car-drives-through-fencing-of-upper-west-side-train-station-driver-abandons-vehicle"
+   ]
+  ]
+ },
+ {
+  "date": "2026-10-25",
+  "headline": "A 39-year-old woman was sexually assaulted at knifepoint in Central Park near 66th and Fifth on Saturday night. Police released a photo.",
+  "links": [
+   [
+    "West Side Rag",
+    "https://www.westsiderag.com/2026/10/25/woman-sexually-assaulted-at-knifepoint-in-central-park-police"
+   ]
+  ]
+ },
+ {
+  "date": "2026-10-24",
+  "headline": "Nearly 100 LaGuardia students walked out of class and marched to Lincoln Center to protest AI.",
+  "links": [
+   [
+    "I Love the Upper West Side",
+    "https://www.ilovetheupperwestside.com/nearly-100-laguardia-students-walk-out-of-class-and-march-to-lincoln-center-heres-why/"
+   ],
+   [
+    "The West Sider",
+    "https://www.thewestsidernyc.com/p/issue-24-big-dreams-little-brains-and-a-lot-of-dogs"
+   ]
+  ]
+ },
+ {
+  "date": "2026-10-23",
+  "headline": "The Health Department shut Empire Szechuan Kyoto at 193 Columbus.",
+  "links": [
+   [
+    "West Side Rag",
+    "https://www.westsiderag.com/2026/10/22/longtime-upper-west-side-chinese-restaurant-closed-by-the-health-department"
+   ],
+   [
+    "I Love the Upper West Side",
+    "https://www.ilovetheupperwestside.com/longtime-upper-west-side-chinese-restaurant-shut-down-by-health-department/"
+   ]
+  ]
+ },
+ {
+  "date": "2026-10-23",
+  "headline": "The Apthorp's board wants to foreclose on an apartment listed for nearly $50 million. It says the owner owes $928,000 in fees.",
+  "links": [
+   [
+    "I Love the Upper West Side",
+    "https://www.ilovetheupperwestside.com/apthorp-board-moves-to-foreclose-on-apartment-listed-for-nearly-50-million/"
+   ]
+  ]
+ },
+ {
+  "date": "2026-10-21",
+  "headline": "The AI cameras that tracked double-parkers on the UWS for six months came down.",
+  "links": [
+   [
+    "West Side Rag",
+    "https://www.westsiderag.com/2026/10/21/pilot-ai-cameras-tracking-parking-violations-on-the-upper-west-side-taken-down"
+   ],
+   [
+    "I Love the Upper West Side",
+    "https://www.ilovetheupperwestside.com/cameras-have-been-quietly-tracking-double-parkers-on-an-upper-west-side-block-and-theyre-coming-down-this-week/"
+   ]
+  ]
+ },
+ {
+  "date": "2026-10-20",
+  "headline": "Three men surrounded a 32-year-old woman in Central Park on Sunday night, hit her in the head and took her bag.",
+  "links": [
+   [
+    "West Side Rag",
+    "https://www.westsiderag.com/2026/10/19/woman-attacked-and-robbed-by-3-men-in-central-park-police"
+   ],
+   [
+    "I Love the Upper West Side",
+    "https://www.ilovetheupperwestside.com/police-seek-three-men-who-beat-and-robbed-a-woman-in-central-park/"
+   ]
+  ]
+ },
+ {
+  "date": "2026-10-19",
+  "headline": "Neighbors started a petition against the 13-story condo planned on top of the Gristedes on Columbus.",
+  "links": [
+   [
+    "I Love the Upper West Side",
+    "https://www.ilovetheupperwestside.com/neighbors-launch-petition-to-stop-tower-planned-above-upper-west-side-supermarket/"
+   ],
+   [
+    "West Side Rag",
+    "https://www.westsiderag.com/2026/10/16/developers-aim-to-construct-145-foot-building-above-upper-west-side-grocer-were-all-in-a-state-of-shock"
+   ]
+  ]
+ },
+ {
+  "date": "2026-10-16",
+  "headline": "The Great Lawn closes for the season two weeks early, for restoration.",
+  "links": [
+   [
+    "West Side Rag",
+    "https://www.westsiderag.com/2026/10/16/central-park-great-lawn-to-close-for-the-season-2-weeks-earlier-than-normal-for-restoration"
+   ]
+  ]
+ },
+ {
+  "date": "2026-10-16",
+  "headline": "A fire in the shaft between 104 and 106 W. 83rd brought 79 firefighters and EMS workers. Nobody was hurt.",
+  "links": [
+   [
+    "I Love the Upper West Side",
+    "https://www.ilovetheupperwestside.com/nearly-80-firefighters-and-ems-personnel-respond-to-late-night-upper-west-side-fire/"
+   ]
+  ]
+ },
+ {
+  "date": "2026-10-15",
+  "headline": "The sidewalk shed at the Astor, 2139 Broadway, came down. It was up for 12 years.",
+  "links": [
+   [
+    "West Side Rag",
+    "https://www.westsiderag.com/2026/10/15/imposing-upper-west-side-sidewalk-shed-comes-down-after-12-years"
+   ]
+  ]
+ },
+ {
+  "date": "2026-10-15",
+  "headline": "The mayor says Central Park's horse-drawn carriages are “coming to an end.”",
+  "links": [
+   [
+    "West Side Rag",
+    "https://www.westsiderag.com/2026/10/15/horse-drawn-carriages-in-central-park-coming-to-an-end-mayor-says-photos"
+   ]
+  ]
+ },
+ {
+  "date": "2026-10-14",
+  "headline": "A developer wants a 13-story condo on top of the Gristedes at 500 Columbus. The neighbors want their sunlight.",
+  "links": [
+   [
+    "I Love the Upper West Side",
+    "https://www.ilovetheupperwestside.com/developer-wants-to-build-tower-above-upper-west-side-supermarket/"
+   ]
+  ]
+ },
+ {
+  "date": "2026-10-14",
+  "headline": "The city put the UWS on a “fast track” for affordable housing, one of 12 districts.",
+  "links": [
+   [
+    "West Side Rag",
+    "https://www.westsiderag.com/2026/10/14/mamdani-administration-puts-upper-west-side-on-fast-track-for-affordable-housing"
+   ]
+  ]
+ },
+ {
+  "date": "2026-10-14",
+  "headline": "La Pecora Bianca opens Oct. 19 at 61 Columbus, the old Rosa Mexicano.",
+  "links": [
+   [
+    "West Side Rag",
+    "https://www.westsiderag.com/2026/10/14/openings-nyu-langone-radiology-upper-west-side-ediths-sandwich-counter-mimis-blank-street-coffee"
+   ],
+   [
+    "I Love the Upper West Side",
+    "https://www.ilovetheupperwestside.com/la-pecora-bianca-sets-opening-date-for-its-biggest-restaurant-yet/"
+   ]
+  ]
+ },
+ {
+  "date": "2026-10-14",
+  "headline": "The old Gracious Home at 67th and Broadway, empty since 2016, has a tenant: NYU Langone.",
+  "links": [
+   [
+    "I Love the Upper West Side",
+    "https://www.ilovetheupperwestside.com/the-old-gracious-home-space-on-broadway-finally-has-a-new-tenant/"
+   ]
+  ]
+ },
+ {
+  "date": "2026-10-09",
+  "headline": "Police arrested the driver who killed cyclist Geoffrey Radbill, 78, on Riverside Drive last December. It took almost ten months.",
+  "links": [
+   [
+    "I Love the Upper West Side",
+    "https://www.ilovetheupperwestside.com/driver-arrested-nearly-10-months-after-upper-west-side-cyclist-78-was-killed-on-riverside-drive/"
+   ]
+  ]
+ },
+ {
+  "date": "2026-10-09",
+  "headline": "Crunch Fitness is taking the old Marshalls at Broadway and 78th, empty since 2023. All 28,100 square feet.",
+  "links": [
+   [
+    "West Side Rag",
+    "https://www.westsiderag.com/2026/10/09/one-of-the-upper-west-sides-largest-empty-storefronts-gets-a-new-tenant"
+   ],
+   [
+    "I Love the Upper West Side",
+    "https://www.ilovetheupperwestside.com/upper-west-siders-will-soon-be-sweating-in-the-old-marshalls-space/"
+   ]
+  ]
+ },
+ {
+  "date": "2026-10-08",
+  "headline": "The owner of the former Au Jus barbecue restaurant was indicted for wage theft.",
+  "links": [
+   [
+    "West Side Rag",
+    "https://www.westsiderag.com/2026/10/08/owner-of-former-uws-barbecue-restaurant-indicted-for-wage-theft-manhattan-da"
+   ],
+   [
+    "I Love the Upper West Side",
+    "https://www.ilovetheupperwestside.com/former-uws-restaurant-owner-accused-of-ignoring-unpaid-workers-while-vacationing-in-europe/"
+   ]
+  ]
+ },
+ {
+  "date": "2026-10-08",
+  "headline": "The 72nd Street 1/2/3 station is getting new fare gates to stop fare beaters.",
+  "links": [
+   [
+    "West Side Rag",
+    "https://www.westsiderag.com/2026/10/08/major-upper-west-side-train-station-replacing-turnstiles-with-new-gates-to-reduce-fare-evasion"
+   ],
+   [
+    "I Love the Upper West Side",
+    "https://www.ilovetheupperwestside.com/modern-fare-gates-are-coming-to-an-upper-west-side-subway-station/"
+   ]
+  ]
+ },
+ {
+  "date": "2026-10-07",
+  "headline": "A barn owl, “extremely rare” in the city, has been living behind buildings on W. 75th and 76th. Now there may be several.",
+  "links": [
+   [
+    "West Side Rag",
+    "https://www.westsiderag.com/2026/10/04/extremely-rare-american-barn-owl-spotted-for-the-last-month-in-upper-west-side-building-courtyards"
+   ],
+   [
+    "West Side Rag",
+    "https://www.westsiderag.com/2026/10/07/multiple-barn-owls-possibly-spotted-in-upper-west-side-building-courtyard"
+   ]
+  ]
+ },
+ {
+  "date": "2026-10-07",
+  "headline": "Dinosaur Playground is getting $3 million from the state. For the bathrooms. Half the playground is still closed.",
+  "links": [
+   [
+    "West Side Rag",
+    "https://www.westsiderag.com/2026/10/07/dinosaur-park-receives-3m-to-improve-restrooms-as-half-the-uws-playground-remains-closed"
+   ],
+   [
+    "I Love the Upper West Side",
+    "https://www.ilovetheupperwestside.com/riverside-parks-dinosaur-playground-is-getting-3-million-but-not-for-the-slides-or-swings/"
+   ]
+  ]
+ },
+ {
+  "date": "2026-10-06",
+  "headline": "The graffiti is coming off the old Metro Theater.",
+  "links": [
+   [
+    "West Side Rag",
+    "https://www.westsiderag.com/2026/10/06/graffiti-removed-from-historic-facade-of-former-uws-metro-theater-it-symbolizes-movement"
+   ]
+  ]
+ },
+ {
+  "date": "2026-10-05",
+  "headline": "A 71-year-old cyclist died in Central Park after braking hard to avoid an off-leash dog on East Drive.",
+  "links": [
+   [
+    "West Side Rag",
+    "https://www.westsiderag.com/2026/10/05/cyclist-killed-in-central-park-after-off-leash-dog-runs-onto-roadway-police"
+   ]
+  ]
+ },
+ {
+  "date": "2026-10-05",
+  "headline": "Lucia Pizza opened Oct. 5 at 159 Columbus.",
+  "links": [
+   [
+    "I Love the Upper West Side",
+    "https://www.ilovetheupperwestside.com/lucia-pizza-opens-upper-west-side-shop/"
+   ],
+   [
+    "West Side Rag",
+    "https://www.westsiderag.com/2026/10/02/lucia-pizza-reveals-upper-west-side-opening-date-see-inside-the-shop"
+   ]
+  ]
+ },
+ {
+  "date": "2026-10-02",
+  "headline": "Chip City on Columbus closed for good. The whole chain is shutting down.",
+  "links": [
+   [
+    "West Side Rag",
+    "https://www.westsiderag.com/2026/10/02/uws-chip-city-permanently-closes-as-nypd-officers-arrive-to-collect-evidence"
+   ]
+  ]
+ },
+ {
+  "date": "2026-10-01",
+  "headline": "A 44-year-old man was stabbed in the neck and back at 312 W. 109th on Wednesday afternoon.",
+  "links": [
+   [
+    "West Side Rag",
+    "https://www.westsiderag.com/2026/10/01/man-stabbed-multiple-times-on-the-upper-west-side-police"
+   ]
+  ]
+ },
+ {
+  "date": "2026-10-01",
+  "headline": "Riverside Park's drainage work is behind schedule. “It's like a war zone,” said a man with a poodle.",
+  "links": [
+   [
+    "West Side Rag",
+    "https://www.westsiderag.com/2026/10/01/riverside-parks-drainage-renovations-continue-behind-schedule-on-the-upper-west-side"
+   ]
+  ]
+ },
+ {
+  "date": "2026-09-30",
+  "headline": "The elevators at the 72nd Street 1/2/3 station work again. It took more than a year.",
+  "links": [
+   [
+    "West Side Rag",
+    "https://www.westsiderag.com/2026/09/30/elevators-at-major-upper-west-side-train-station-reopen"
+   ]
+  ]
+ },
+ {
+  "date": "2026-09-30",
+  "headline": "Talea Beer Co. opened at 441 Amsterdam and Velvet Cowboy opened at 509 Amsterdam. Two bars, four blocks, one week.",
+  "links": [
+   [
+    "West Side Rag",
+    "https://www.westsiderag.com/2026/09/30/openings-velvet-cowboy-kine-musubi-topman-barbershop-cafe-des-artistes-7th-street-burger"
+   ],
+   [
+    "I Love the Upper West Side",
+    "https://www.ilovetheupperwestside.com/talea-beer-co-opens-upper-west-side-taproom-in-a-beloved-irish-bars-old-space/"
+   ],
+   [
+    "I Love the Upper West Side",
+    "https://www.ilovetheupperwestside.com/velvet-cowboy-a-western-bar-with-a-5-food-menu-opens-on-the-upper-west-side-tomorrow/"
+   ]
+  ]
+ },
+ {
+  "date": "2026-09-28",
+  "headline": "Richie O'Brien, 41, a father of two, died days after a cyclist hit him in Central Park on his walk to work.",
+  "links": [
+   [
+    "West Side Rag",
+    "https://www.westsiderag.com/2026/09/28/pedestrian-dies-4-days-after-being-struck-by-cyclist-in-central-park-our-hearts-are-broken"
+   ],
+   [
+    "I Love the Upper West Side",
+    "https://www.ilovetheupperwestside.com/father-of-two-dies-days-after-being-struck-by-cyclist-in-central-park/"
+   ]
+  ]
+ },
+ {
+  "date": "2026-09-27",
+  "headline": "A 63-year-old woman was found stabbed to death in a Central Park gazebo. Jonathan Robles, 36, is charged with murder.",
+  "links": [
+   [
+    "West Side Rag",
+    "https://www.westsiderag.com/2026/09/27/woman-found-dead-with-stab-wounds-in-central-park-gazebo-nypd"
+   ]
+  ]
+ },
+ {
+  "date": "2026-09-26",
+  "headline": "Global Citizen Festival was called off for the nor'easter, its first cancellation in 14 years. The Great Lawn gets a break.",
+  "links": [
+   [
+    "West Side Rag",
+    "https://www.westsiderag.com/2026/09/24/a-storm-is-predicted-for-the-same-day-global-citizen-festival-is-set-for-the-great-lawn-in-central-park"
+   ],
+   [
+    "The West Sider",
+    "https://www.thewestsidernyc.com/p/issue-21-everything-s-cancelled-except-the-bear-gustavo"
+   ]
+  ]
+ },
+ {
+  "date": "2026-09-25",
+  "headline": "Mary Willis, 80, broke her hip in the Trader Joe's escalator accident. She's missing her daughter's wedding.",
+  "links": [
+   [
+    "West Side Rag",
+    "https://www.westsiderag.com/2026/09/25/an-interview-with-a-woman-who-broke-her-hip-in-the-uws-trader-joes-escalator-mishap"
+   ]
+  ]
+ },
+ {
+  "date": "2026-09-25",
+  "headline": "Café des Artistes, closed since 2009, is being revived.",
+  "links": [
+   [
+    "I Love the Upper West Side",
+    "https://www.ilovetheupperwestside.com/cafe-des-artistes-is-returning-and-anyone-who-ever-ate-there-can-help-shape-it/"
+   ]
+  ]
+ },
+ {
+  "date": "2026-09-24",
+  "headline": "A 20-year-old man died after an apparent fall on Broadway near W. 77th.",
+  "links": [
+   [
+    "I Love the Upper West Side",
+    "https://www.ilovetheupperwestside.com/20-year-old-man-dies-after-fall-on-broadway-near-west-78th-street/"
+   ]
+  ]
+ },
+ {
+  "date": "2026-09-23",
+  "headline": "Two people went to the hospital after an escalator accident at the Trader Joe's on 72nd, ten days after it reopened.",
+  "links": [
+   [
+    "West Side Rag",
+    "https://www.westsiderag.com/2026/09/22/2-people-hospitalized-due-to-an-escalator-at-upper-west-side-trader-joes-fdny"
+   ],
+   [
+    "I Love the Upper West Side",
+    "https://www.ilovetheupperwestside.com/two-hospitalized-after-escalator-fall-at-newly-reopened-trader-joes/"
+   ]
+  ]
+ },
+ {
+  "date": "2026-09-23",
+  "headline": "The Library for the Performing Arts got $60 million, the largest gift in its history.",
+  "links": [
+   [
+    "The West Sider",
+    "https://www.thewestsidernyc.com/p/issue-20-a-sellout-a-windfall-and-a-new-neighbor"
+   ]
+  ]
+ },
+ {
+  "date": "2026-09-23",
+  "headline": "Golf v.2 opens Nov. 2 at 1865 Broadway, for people who need to golf inside.",
+  "links": [
+   [
+    "I Love the Upper West Side",
+    "https://www.ilovetheupperwestside.com/golf-v-2-is-bringing-indoor-golf-to-the-upper-west-side/"
+   ]
+  ]
+ },
+ {
+  "date": "2026-09-22",
+  "headline": "207 W. 75th, the building in an $845,000 illegal Airbnb settlement, went to a foreclosure auction.",
+  "links": [
+   [
+    "I Love the Upper West Side",
+    "https://www.ilovetheupperwestside.com/uws-building-at-center-of-845000-illegal-airbnb-settlement-goes-to-auction-today/"
+   ]
+  ]
+ },
+ {
+  "date": "2026-09-21",
+  "headline": "The Sweetgreen at 311 Amsterdam is permanently closed, three weeks after the roach shutdown.",
+  "links": [
+   [
+    "West Side Rag",
+    "https://www.westsiderag.com/2026/09/21/three-weeks-after-health-department-closure-uws-sweetgreen-permanently-closes"
+   ],
+   [
+    "I Love the Upper West Side",
+    "https://www.ilovetheupperwestside.com/an-upper-west-side-sweetgreen-has-closed-for-good/"
+   ]
+  ]
+ },
+ {
+  "date": "2026-09-19",
+  "headline": "Four gunpoint robberies in Central Park in one night, all along East Drive. Three men, a gun and a bike.",
+  "links": [
+   [
+    "West Side Rag",
+    "https://www.westsiderag.com/2026/09/19/4-gunpoint-robberies-in-central-park-in-one-night"
+   ],
+   [
+    "I Love the Upper West Side",
+    "https://www.ilovetheupperwestside.com/multiple-gunpoint-robberies-reported-in-central-park-thursday-night/"
+   ]
+  ]
+ },
+ {
+  "date": "2026-09-18",
+  "headline": "The last defendant in the sham construction-safety school case, tied to a worker's fatal fall on the UWS, pleaded guilty.",
+  "links": [
+   [
+    "I Love the Upper West Side",
+    "https://www.ilovetheupperwestside.com/final-defendant-pleads-guilty-in-sham-construction-school-case-tied-to-uws-death/"
+   ]
+  ]
+ },
+ {
+  "date": "2026-09-18",
+  "headline": "Aperture opened its photography gallery and headquarters across from the Natural History Museum.",
+  "links": [
+   [
+    "West Side Rag",
+    "https://www.westsiderag.com/2026/09/18/aperture-opens-its-long-awaited-gallery-and-headquarters-on-the-upper-west-side"
+   ],
+   [
+    "I Love the Upper West Side",
+    "https://www.ilovetheupperwestside.com/a-74-year-old-new-york-institution-is-opening-its-first-permanent-home-on-the-uws-next-week/"
+   ]
+  ]
+ },
+ {
+  "date": "2026-09-16",
+  "headline": "A 28-story, 340-unit tower is planned for 200 W. 97th, on the Holy Name church campus. Yes, it has a “glam room.”",
+  "links": [
+   [
+    "West Side Rag",
+    "https://www.westsiderag.com/2026/09/16/new-28-story-building-slated-for-the-upper-west-side"
+   ],
+   [
+    "I Love the Upper West Side",
+    "https://www.ilovetheupperwestside.com/plans-filed-for-28-story-tower-with-pool-pet-spa-and-glam-room-on-upper-west-side-church-campus/"
+   ]
+  ]
+ },
+ {
+  "date": "2026-09-16",
+  "headline": "Szechuan Gourmet, the Michelin-recommended Midtown place, opened on the UWS on Sept. 12.",
+  "links": [
+   [
+    "I Love the Upper West Side",
+    "https://www.ilovetheupperwestside.com/a-michelin-recommended-szechuan-restaurant-has-opened-on-the-uws/"
+   ]
+  ]
+ },
+ {
+  "date": "2026-09-15",
+  "headline": "The Trader Joe's at 72nd and Broadway reopened Sept. 12 after 116 days. The escalator still doesn't work.",
+  "links": [
+   [
+    "West Side Rag",
+    "https://www.westsiderag.com/2026/09/10/upper-west-side-trader-joes-at-72nd-street-will-reopen-on-saturday-morning"
+   ],
+   [
+    "West Side Rag",
+    "https://www.westsiderag.com/2026/09/15/uws-trader-joes-escalator-and-elevator-issues-persist-after-116-day-closure-for-renovations"
+   ],
+   [
+    "I Love the Upper West Side",
+    "https://www.ilovetheupperwestside.com/upper-west-side-trader-joes-set-to-reopen-after-months-long-remodel/"
+   ],
+   [
+    "I Love the Upper West Side",
+    "https://www.ilovetheupperwestside.com/empty-shelves-and-a-broken-escalator-shoppers-weigh-in-on-the-reopened-72nd-street-trader-joes/"
+   ]
+  ]
+ },
+ {
+  "date": "2026-09-15",
+  "headline": "Downtown 1 trains skip 125th, 116th, 110th and more on weekends for the next month.",
+  "links": [
+   [
+    "West Side Rag",
+    "https://www.westsiderag.com/2026/09/15/multiple-uws-train-stations-out-of-service-over-the-weekends-for-the-next-month"
+   ]
+  ]
+ },
+ {
+  "date": "2026-09-14",
+  "headline": "Turtles in the Central Park Lake are getting snared on illegal barbed fishing hooks.",
+  "links": [
+   [
+    "West Side Rag",
+    "https://www.westsiderag.com/2026/09/14/turtles-are-getting-snared-by-illegal-barbed-fishing-hooks-in-central-park"
+   ]
+  ]
+ },
+ {
+  "date": "2026-09-13",
+  "headline": "A woman was punched and robbed near Central Park West and 69th on Saturday evening.",
+  "links": [
+   [
+    "West Side Rag",
+    "https://www.westsiderag.com/2026/09/13/woman-punched-and-robbed-on-the-upper-west-side-nypd"
+   ]
+  ]
+ },
+ {
+  "date": "2026-09-10",
+  "headline": "The owners of Friedman's and Pastrami Queen bought an empty UWS restaurant space instead of renting one. Smart.",
+  "links": [
+   [
+    "I Love the Upper West Side",
+    "https://www.ilovetheupperwestside.com/friedmans-restaurant-owners-buy-vacant-retail-space-on-upper-west-side/"
+   ]
+  ]
+ },
+ {
+  "date": "2026-09-10",
+  "headline": "About 250 people rallied at Broadway and 115th for Columbia to reopen its gates. It was the fifth rally.",
+  "links": [
+   [
+    "West Side Rag",
+    "https://www.westsiderag.com/2026/09/10/morningside-heights-community-members-protest-the-ongoing-closure-of-columbia-universitys-gates"
+   ]
+  ]
+ },
+ {
+  "date": "2026-09-09",
+  "headline": "Jake's Dilemma lost its lease and closes next month after 32 years at 430 Amsterdam. The space is already listed for rent.",
+  "links": [
+   [
+    "West Side Rag",
+    "https://www.westsiderag.com/2026/09/08/jakes-dilemma-popular-upper-west-side-bar-will-close-after-32-years"
+   ],
+   [
+    "I Love the Upper West Side",
+    "https://www.ilovetheupperwestside.com/a-32-year-old-uws-bar-is-closing-and-its-space-is-already-listed-for-rent/"
+   ]
+  ]
+ },
+ {
+  "date": "2026-09-09",
+  "headline": "The city wants seven UWS parking spots for curbside electric-car chargers.",
+  "links": [
+   [
+    "West Side Rag",
+    "https://www.westsiderag.com/2026/09/09/seven-new-public-electric-vehicle-chargers-planned-for-the-uws-heres-where"
+   ]
+  ]
+ },
+ {
+  "date": "2026-09-08",
+  "headline": "Raul Morales was indicted for attempted murder and assault as a hate crime in the July stabbings of two men on the UWS.",
+  "links": [
+   [
+    "West Side Rag",
+    "https://www.westsiderag.com/2026/09/08/man-indicted-for-alleged-antisemitic-stabbings-on-the-upper-west-side-manhattan-da"
+   ],
+   [
+    "I Love the Upper West Side",
+    "https://www.ilovetheupperwestside.com/the-raul-morales-indictment-is-out-two-weeks-early-and-it-goes-further-than-the-original-charges/"
+   ]
+  ]
+ },
+ {
+  "date": "2026-09-08",
+  "headline": "A 48-year-old man was struck and killed by a 2 train at 72nd and Broadway on Monday morning.",
+  "links": [
+   [
+    "I Love the Upper West Side",
+    "https://www.ilovetheupperwestside.com/man-killed-by-train-at-upper-west-side-subway-station/"
+   ]
+  ]
+ },
+ {
+  "date": "2026-09-08",
+  "headline": "Brasserie Boulud opens Sept. 17 at 1900 Broadway, where Daniel Boulud's three old places were.",
+  "links": [
+   [
+    "West Side Rag",
+    "https://www.westsiderag.com/2026/09/08/openings-szechuan-gourmet-wednesday-health-gracies-laundry-velvet-cowboy"
+   ],
+   [
+    "I Love the Upper West Side",
+    "https://www.ilovetheupperwestside.com/daniel-bouluds-new-lincoln-center-restaurant-finally-has-an-opening-date/"
+   ]
+  ]
+ },
+ {
+  "date": "2026-09-06",
+  "headline": "Columbia grad Michael Zheng's first U.S. Open ended in the third round. Further than you got.",
+  "links": [
+   [
+    "West Side Rag",
+    "https://www.westsiderag.com/2026/09/06/us-open-dream-run-ends-for-columbia-universitys-michael-zheng-theres-nothing-to-hang-my-head-about"
+   ]
+  ]
+ },
+ {
+  "date": "2026-09-05",
+  "headline": "Ladder 25 on W. 77th is getting $400,000 in upgrades.",
+  "links": [
+   [
+    "I Love the Upper West Side",
+    "https://www.ilovetheupperwestside.com/upper-west-side-firehouse-gets-400000-in-capital-funding/"
+   ]
+  ]
+ },
+ {
+  "date": "2026-09-03",
+  "headline": "CB7 voted 41-1 to send Extell its “best and final offer” on affordable housing for the tower at the old ABC campus.",
+  "links": [
+   [
+    "I Love the Upper West Side",
+    "https://www.ilovetheupperwestside.com/cb7-just-sent-extell-a-take-it-or-leave-it-number-for-the-abc-site-one-key-player-isnt-sold/"
+   ]
+  ]
+ },
+ {
+  "date": "2026-09-02",
+  "headline": "B and C riders lost their Monday to track repairs at 81st Street. It took nearly 100 workers to fix.",
+  "links": [
+   [
+    "I Love the Upper West Side",
+    "https://www.ilovetheupperwestside.com/monday-was-a-mess-for-b-and-c-riders-heres-what-crews-found-under-the-tracks/"
+   ]
+  ]
+ },
+ {
+  "date": "2026-09-02",
+  "headline": "Wu's Dynasty has its soft opening Sept. 3 at 208 W. 70th.",
+  "links": [
+   [
+    "I Love the Upper West Side",
+    "https://www.ilovetheupperwestside.com/wus-dynasty-has-its-soft-opening-tomorrow/"
+   ]
+  ]
+ },
+ {
+  "date": "2026-09-02",
+  "headline": "The city broke ground on a 116th Street redesign with 2.5 miles of bus lanes. UWS bus routes will feel it.",
+  "links": [
+   [
+    "West Side Rag",
+    "https://www.westsiderag.com/2026/09/02/major-redesign-of-116th-street-will-affect-upper-west-side-bus-routes"
+   ]
+  ]
+ },
+ {
+  "date": "2026-09-01",
+  "headline": "Bobby Santangelo, a fishmonger at Broadway Farms and other UWS grocers for decades, died in August.",
+  "links": [
+   [
+    "West Side Rag",
+    "https://www.westsiderag.com/2026/09/01/beloved-upper-west-side-broadway-farms-fishmonger-passes-away"
+   ]
+  ]
+ },
+ {
+  "date": "2026-09-01",
+  "headline": "Velvet Cowboy opens Sept. 29 at 509 Amsterdam, where Jacob's Pickles used to be.",
+  "links": [
+   [
+    "West Side Rag",
+    "https://www.westsiderag.com/2026/08/31/signage-for-new-bar-goes-up-at-former-uws-jacobs-pickles-home-opening-date-revealed"
+   ],
+   [
+    "I Love the Upper West Side",
+    "https://www.ilovetheupperwestside.com/new-and-coming-soon-wednesday-health-velvet-cowboy-szechuan-gourmet-talea-beer-co/"
+   ]
+  ]
+ },
+ {
+  "date": "2026-08-31",
+  "headline": "The city is spraying pesticide from trucks across most of the UWS on Wednesday, for West Nile. Lovely.",
+  "links": [
+   [
+    "West Side Rag",
+    "https://www.westsiderag.com/2026/08/31/city-will-spray-upper-west-side-with-pesticides-in-effort-to-combat-west-nile-virus"
+   ]
+  ]
+ },
+ {
+  "date": "2026-08-31",
+  "headline": "West Side Montessori bought its space at the base of the Dahlia on W. 95th for $11.4 million.",
+  "links": [
+   [
+    "I Love the Upper West Side",
+    "https://www.ilovetheupperwestside.com/west-side-montessori-buys-its-uws-campus-for-11-4-million/"
+   ]
+  ]
+ },
+ {
+  "date": "2026-08-28",
+  "headline": "Police want two people who snatched a necklace off a 75-year-old woman's neck on Aug. 2.",
+  "links": [
+   [
+    "I Love the Upper West Side",
+    "https://www.ilovetheupperwestside.com/video-nypd-seeking-two-suspects-for-snatching-necklace-off-75-year-old-womans-neck/"
+   ]
+  ]
+ },
+ {
+  "date": "2026-08-26",
+  "headline": "The Health Department shut the Sweetgreen at 311 Amsterdam. Roaches. At the salad place.",
+  "links": [
+   [
+    "West Side Rag",
+    "https://www.westsiderag.com/2026/08/26/upper-west-side-sweetgreen-closed-due-to-cockroaches"
+   ],
+   [
+    "I Love the Upper West Side",
+    "https://www.ilovetheupperwestside.com/live-roaches-shut-down-an-upper-west-side-sweetgreen/"
+   ]
+  ]
+ },
+ {
+  "date": "2026-08-26",
+  "headline": "Doughnut Plant is coming to 2169 Broadway, near 76th, before the end of the year.",
+  "links": [
+   [
+    "I Love the Upper West Side",
+    "https://www.ilovetheupperwestside.com/a-doughnut-shop-credited-with-starting-nycs-artisanal-craze-is-coming-to-the-uws/"
+   ]
+  ]
+ },
+ {
+  "date": "2026-08-26",
+  "headline": "Gottesman Pool in Central Park is closed until next week. In August.",
+  "links": [
+   [
+    "West Side Rag",
+    "https://www.westsiderag.com/2026/08/26/central-park-gottesman-pool-closed-until-next-week-due-to-flooding"
+   ]
+  ]
+ },
+ {
+  "date": "2026-08-25",
+  "headline": "The sidewalk shed on Broadway between 90th and 91st came down and the old Big Daddy's sign was still under it. The relief looks temporary.",
+  "links": [
+   [
+    "West Side Rag",
+    "https://www.westsiderag.com/2026/08/25/imposing-uws-sidewalk-shed-connected-to-multiple-popular-restaurants-comes-down-revealing-old-big-daddys-sign"
+   ]
+  ]
+ },
+ {
+  "date": "2026-08-24",
+  "headline": "Youman Wilder, the coach who stood between ICE agents and his players in Riverside Park, died at 63.",
+  "links": [
+   [
+    "I Love the Upper West Side",
+    "https://www.ilovetheupperwestside.com/youman-wilder-the-coach-who-stood-between-ice-agents-and-his-players-in-riverside-park-has-died-at-63/"
+   ],
+   [
+    "West Side Rag",
+    "https://www.westsiderag.com/2026/08/24/monday-bulletin-baseball-coach-who-reportedly-faced-down-ice-on-uws-dies-at-63-vox-closer-to-discovering-new-insect-species-neighboring-cpw-buildings-make-the-news-columbias-campus-closure-goes"
+   ]
+  ]
+ },
+ {
+  "date": "2026-08-24",
+  "headline": "Barzini's, on Broadway near 90th since 1983, closes at the end of August, an employee says.",
+  "links": [
+   [
+    "West Side Rag",
+    "https://www.westsiderag.com/2026/08/24/barzinis-longtime-uws-grocery-store-to-permanently-close-at-end-of-month-employee-says"
+   ]
+  ]
+ },
+ {
+  "date": "2026-08-24",
+  "headline": "323 W. 96th St., all 15 stories, sold for $88 million.",
+  "links": [
+   [
+    "West Side Rag",
+    "https://www.westsiderag.com/2026/08/24/upper-west-side-building-sells-for-nearly-90-million"
+   ]
+  ]
+ },
+ {
+  "date": "2026-08-23",
+  "headline": "New Asia, the Chinese takeout spot, got shut down too: 60 violation points, starting with live roaches.",
+  "links": [
+   [
+    "I Love the Upper West Side",
+    "https://www.ilovetheupperwestside.com/longtime-uws-chinese-spot-shut-down-by-health-department/"
+   ]
+  ]
+ },
+ {
+  "date": "2026-08-19",
+  "headline": "Wu's Dynasty, a Cantonese place from a founder of Wu's Wonton King, is coming to 208 W. 70th.",
+  "links": [
+   [
+    "West Side Rag",
+    "https://www.westsiderag.com/2026/08/19/openings-made-in-ny-pizza-tea-magic-sundays-subway-good-enough-to-eat-jets-pizza"
+   ]
+  ]
+ },
+ {
+  "date": "2026-08-18",
+  "headline": "LaGuardia High School dropped more than 160 spots, to 258th in the state, in U.S. News. Its scores and graduation rate didn't move.",
+  "links": [
+   [
+    "I Love the Upper West Side",
+    "https://www.ilovetheupperwestside.com/a-famous-upper-west-side-high-school-just-dropped-more-than-160-spots-in-the-state-rankings/"
+   ]
+  ]
+ },
+ {
+  "date": "2026-08-17",
+  "headline": "Good Enough to Eat closes Aug. 30 after 45 years. There goes brunch on Columbus.",
+  "links": [
+   [
+    "West Side Rag",
+    "https://www.westsiderag.com/2026/08/17/good-enough-to-eat-longtime-popular-uws-restaurant-to-close-after-45-years"
+   ],
+   [
+    "I Love the Upper West Side",
+    "https://www.ilovetheupperwestside.com/good-enough-to-eat-is-closing-after-45-years-but-its-not-really-a-goodbye/"
+   ]
+  ]
+ },
+ {
+  "date": "2026-08-17",
+  "headline": "Health inspectors closed the Subway at 2508 Broadway for the second time in six weeks.",
+  "links": [
+   [
+    "I Love the Upper West Side",
+    "https://www.ilovetheupperwestside.com/this-upper-west-side-subway-has-now-been-shut-down-twice-in-six-weeks/"
+   ]
+  ]
+ },
+ {
+  "date": "2026-08-14",
+  "headline": "Three men got into a fight at Central Park West and 71st on a Friday morning, and one of them fired a gun. At 8:45 a.m.",
+  "links": [
+   [
+    "West Side Rag",
+    "https://www.westsiderag.com/2026/08/14/multiple-gunshots-fired-in-upper-west-side-morning-fight-police"
+   ],
+   [
+    "I Love the Upper West Side",
+    "https://www.ilovetheupperwestside.com/shots-fired-at-71st-and-central-park-west-friday-morning/"
+   ]
+  ]
+ },
+ {
+  "date": "2026-08-14",
+  "headline": "A 200-bed women's shelter opened next to Gertrude Ederle Playground on W. 59th. Parents have complaints.",
+  "links": [
+   [
+    "I Love the Upper West Side",
+    "https://www.ilovetheupperwestside.com/the-59th-street-shelter-opened-in-may-some-neighbors-say-the-block-hasnt-been-the-same-since/"
+   ]
+  ]
+ },
+ {
+  "date": "2026-08-13",
+  "headline": "Jet's Pizza at 728 Amsterdam is gone. Another pizza place, closed.",
+  "links": [
+   [
+    "West Side Rag",
+    "https://www.westsiderag.com/2026/08/13/another-upper-west-side-pizza-shop-closes-its-doors"
+   ]
+  ]
+ },
+ {
+  "date": "2026-08-13",
+  "headline": "Good Company, a legal dispensary at 2273 Broadway, also wants you to read and do yoga there. Fine.",
+  "links": [
+   [
+    "West Side Rag",
+    "https://www.westsiderag.com/2026/08/13/the-new-uws-cannabis-dispensary-looking-to-become-a-neighborhood-hub"
+   ]
+  ]
+ }
 ]

@@ -1,7 +1,7 @@
 """Build docs/index.html (the Instagram link-in-bio page) from links.json.
 
 links.json is a list of {"date": "YYYY-MM-DD", "headline": str, "links": [[source, url], ...]},
-newest first. The page shows the most recent 30 days.
+newest first. The page shows the most recent 100 days.
 """
 import html, json
 from datetime import date, timedelta
@@ -10,7 +10,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 stories = json.loads((ROOT / "links.json").read_text())
 newest = max(s["date"] for s in stories)
-cutoff = (date.fromisoformat(newest) - timedelta(days=30)).isoformat()
+cutoff = (date.fromisoformat(newest) - timedelta(days=100)).isoformat()
 e = html.escape
 
 parts, day = [], None
