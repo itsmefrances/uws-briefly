@@ -26,7 +26,11 @@ news from West Side Rag, I Love the Upper West Side and The West Sider, with cre
    step 1 (used or not) with `python3 tools/new_stories.py --mark URL ...`.
 7. Commit and push to `main`. Confirm a slide URL returns 200 at
    `https://raw.githubusercontent.com/itsmefrances/uws-briefly/<commit>/editions/<date>/slide-01.png`.
-8. Publish with the Buffer connector: `create_post` to the Instagram channel `uws_briefly`
+8. Republish the links page (https://uws-briefly.onrender.com, the address in the Instagram bio):
+   with the Render connector, `trigger_deploy` for the static site `uws-briefly`
+   (service `srv-dbqcirjbc2fs73d0in9g`, workspace "UWS Briefly"), since pushes may not deploy
+   on their own. Never put the GitHub address in a caption, slide or the page itself.
+9. Publish with the Buffer connector: `create_post` to the Instagram channel `uws_briefly`
    (find it with `get_account` then `list_channels`), `mode: shareNow`,
    `schedulingType: automatic`, `metadata.instagram: {type: "post", shouldShareToFeed: true}`,
    one image asset per slide (commit-pinned raw URLs, alt text = the slide's sentence).
