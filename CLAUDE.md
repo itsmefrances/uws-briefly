@@ -44,6 +44,9 @@ news from West Side Rag, I Love the Upper West Side and The West Sider, with cre
    `schedulingType: automatic`, `metadata.instagram: {type: "post", shouldShareToFeed: true}`,
    one image asset per slide (commit-pinned raw URLs, alt text = the slide's sentence).
    Check with `get_post` that the status is `sent` and report the Instagram link.
+10. If the post is rejected (status `error`, for example Instagram's spam flag), do not retry.
+    Send the owner the slide images with SendUserFile and paste the caption in the report, so
+    they can post it by hand from the Instagram app. Delete the failed post from Buffer.
 
 The owner chose automatic publishing with no review, so accuracy matters more than coverage:
 when unsure about a fact, leave the story out.
