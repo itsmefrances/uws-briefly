@@ -53,11 +53,13 @@ ed.stories.forEach((s, i) => {
     <div class="src">Via <b>${esc(s.src)}</b></div>`));
 });
 
+// Closing slide: credits every source used in this edition (ed.sources, or all three by default).
+const sources = ed.sources || ['West Side Rag', 'I Love the Upper West Side', 'The West Sider'];
 slides.push(page('cover', `
   <div class="top"><span class="brand">UWS Briefly</span><span class="count">${total}/${total}</span></div>
-  <div><div class="text" style="font-size:84px">Read the full stories at</div>
-    <div class="list" style="margin-top:44px">West Side Rag<br><span style="font-weight:400;color:#cfe3dc">westsiderag.com</span><br><br>I Love the Upper West Side<br><span style="font-weight:400;color:#cfe3dc">ilovetheupperwestside.com</span></div></div>
-  <div class="sub">More stories from this week are in the caption.</div>`));
+  <div><div class="text" style="font-size:84px">Read the full stories</div>
+    <div class="list" style="margin-top:44px">Links to every story<br>are in our bio.</div></div>
+  <div class="sub">Reporting by ${sources.map(esc).join(', ')}.</div>`));
 
 (async () => {
   const browser = await chromium.launch();
