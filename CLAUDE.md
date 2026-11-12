@@ -47,12 +47,13 @@ The run fires hourly from 7 am to 10 pm New York time.
    `schedulingType: automatic`, `metadata.instagram: {type: "post", shouldShareToFeed: true}`,
    one image asset (commit-pinned raw URL, alt text = the card's sentence). Wait about a minute
    and check with `get_post`. If `sent`, report the Instagram link.
-10. If Buffer reports `error` ("flagged as potential spam"): do not retry that post, and delete it
-    from Buffer. Buffer's error is not reliable: on Nov 12, 2026 it reported a rejection for a
-    post that did appear on Instagram. So send the owner the card with SendUserFile and the
-    caption in a code block, and say plainly: "Buffer reported a rejection, but check
-    @uws_briefly first and post this by hand only if it is not there." Keep publishing later
-    stories automatically as usual.
+10. If Buffer reports `error` with "flagged as potential spam": treat the post as published.
+    On Nov 11-12, 2026 Buffer gave this error for seven posts and every one of them appeared on
+    Instagram. Do not retry, do not hand the card to the owner (that caused a duplicate), and
+    delete the errored entry from Buffer. In the report, say Buffer showed its usual false error
+    and name the story, so the owner can glance at @uws_briefly. Any other error message is a real
+    failure: report it with the exact message, and send the card and caption so the owner can
+    post by hand.
 
 Finish with a short report: what was posted (with links) or handed off, and any source that failed.
 
