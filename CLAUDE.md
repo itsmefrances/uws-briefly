@@ -22,6 +22,15 @@ The run fires hourly from 7 am to 10 pm New York time.
    is direct and a bit annoyed by everything. Plain words, dry asides ("At the salad place.",
    "It took more than a year."), never cute. The facts stay exact: who/what/where/when, nothing the
    article does not state, no clickbait or teasing. Never copy sentences or use the sites' photos.
+   - Every story that is not about a death, violence or a victim MUST end with a dry aside: the
+     thing a cranky neighbor would mutter. A card with only the facts is a failed card. The aside
+     is short, comes from the facts in the article, and aims at institutions, chains, landlords,
+     developers, the city and the absurd, never at a private person's misfortune. Examples:
+     "Carrot, the health-food place at 2169 Broadway, got shut by the Health Department over mice
+     and flies. Five months in. So much for clean eating." / "A white Rolls-Royce and a line of
+     black Escalades have been parked illegally on W. 66th for two weeks. No tickets. Try that
+     with your Honda." / "They also want you to read and do yoga there. Fine." / "Roaches. At the
+     salad place." / "Your landlord knows."
    - No jokes or asides about deaths, violence, missing people or victims. Just say it straight.
    - Crime: say "charged", "accused" or "indicted" unless there is a conviction or guilty plea.
    - Each story gets a blunt label: "Someone died", "New restaurant", "Closing", "Roaches",
