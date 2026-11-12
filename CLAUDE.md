@@ -42,19 +42,17 @@ The run fires hourly from 7 am to 10 pm New York time.
 8. Republish the links page (https://uws-briefly.onrender.com, the address in the Instagram bio):
    with the Render connector, `trigger_deploy` for the static site `uws-briefly`
    (service `srv-dbqcirjbc2fs73d0in9g`, workspace "UWS Briefly").
-9. Publish. Instagram has been rejecting automated posts from this account as spam, so read
-   `state.json` first:
-   - If `auto_rejected_on` is today's date (New York), do NOT try Instagram. Go to step 10.
-   - Otherwise try one post with the Buffer connector: `create_post` to the Instagram channel
-     `uws_briefly` (`get_account` then `list_channels`), `mode: shareNow`,
-     `schedulingType: automatic`, `metadata.instagram: {type: "post", shouldShareToFeed: true}`,
-     one image asset (commit-pinned raw URL, alt text = the card's sentence). Wait about a minute
-     and check with `get_post`. If `sent`, report the Instagram link and post the remaining
-     stories the same way, one at a time. If `error`, delete the failed post from Buffer, set
-     `auto_rejected_on` to today in `state.json` (commit and push), and go to step 10 for this
-     story and every remaining one. Never retry a rejected post.
-10. Hand-off: send the owner each card with SendUserFile and paste its caption in the report in a
-    code block, so they can post it by hand from the Instagram app.
+9. Publish each story with the Buffer connector, one at a time: `create_post` to the Instagram
+   channel `uws_briefly` (`get_account` then `list_channels`), `mode: shareNow`,
+   `schedulingType: automatic`, `metadata.instagram: {type: "post", shouldShareToFeed: true}`,
+   one image asset (commit-pinned raw URL, alt text = the card's sentence). Wait about a minute
+   and check with `get_post`. If `sent`, report the Instagram link.
+10. If Buffer reports `error` ("flagged as potential spam"): do not retry that post, and delete it
+    from Buffer. Buffer's error is not reliable: on Nov 12, 2026 it reported a rejection for a
+    post that did appear on Instagram. So send the owner the card with SendUserFile and the
+    caption in a code block, and say plainly: "Buffer reported a rejection, but check
+    @uws_briefly first and post this by hand only if it is not there." Keep publishing later
+    stories automatically as usual.
 
 Finish with a short report: what was posted (with links) or handed off, and any source that failed.
 
