@@ -6,7 +6,13 @@
       "mcp__Buffer__delete_post",
       "mcp__Buffer__get_account",
       "mcp__Buffer__list_channels",
-      "mcp__Render__trigger_deploy"
+      "mcp__Render__trigger_deploy",
+      "mcp__c4636039-d37a-46af-8f90-4b3034bf52c9__create_post",
+      "mcp__c4636039-d37a-46af-8f90-4b3034bf52c9__get_post",
+      "mcp__c4636039-d37a-46af-8f90-4b3034bf52c9__delete_post",
+      "mcp__c4636039-d37a-46af-8f90-4b3034bf52c9__get_account",
+      "mcp__c4636039-d37a-46af-8f90-4b3034bf52c9__list_channels",
+      "mcp__ee9935d0-4f92-4946-874b-31555eb72691__trigger_deploy"
     ]
   }
 }
