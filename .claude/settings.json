@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__Buffer__create_post",
+      "mcp__Buffer__get_post",
+      "mcp__Buffer__delete_post",
+      "mcp__Buffer__get_account",
+      "mcp__Buffer__list_channels",
+      "mcp__Render__trigger_deploy"
+    ]
+  }
+}
