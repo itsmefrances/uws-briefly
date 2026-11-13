@@ -4,7 +4,7 @@ This repo powers the Instagram account @uws_briefly: short, factual summaries of
 news from West Side Rag, I Love the Upper West Side and The West Sider, with credit to each source.
 
 Each new story becomes its own post: one image card, published soon after the article appears.
-The run fires hourly from 7 am to 10 pm New York time.
+The run fires hourly from 6 am to 7 pm New York time and is off overnight.
 
 ## Hourly procedure
 
