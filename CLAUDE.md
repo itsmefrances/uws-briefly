@@ -48,9 +48,9 @@ The run fires hourly from 6 am to 7 pm New York time and is off overnight.
    in this run (used or dropped) with `python3 tools/new_stories.py --mark URL ...`.
 7. Commit and push to `main`. Confirm a card URL returns 200 at
    `https://raw.githubusercontent.com/itsmefrances/uws-briefly/<commit>/editions/<date>/<file>.png`.
-8. Republish the links page (https://uws-briefly.onrender.com, the address in the Instagram bio):
-   with the Render connector, `trigger_deploy` for the static site `uws-briefly`
-   (service `srv-dbqcirjbc2fs73d0in9g`, workspace "UWS Briefly").
+8. The links page (https://uws-briefly.onrender.com, the address in the Instagram bio) republishes
+   itself: Render auto-deploys the static site `uws-briefly` on every push to `main`. Do NOT call
+   the Render connector's `trigger_deploy`; it is redundant and stops the run for approval.
 9. Publish each story with the Buffer connector, one at a time: `create_post` to the Instagram
    channel `uws_briefly` (`get_account` then `list_channels`), `mode: shareNow`,
    `schedulingType: automatic`, `metadata.instagram: {type: "post", shouldShareToFeed: true}`,
