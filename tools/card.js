@@ -7,8 +7,8 @@ const esc = s => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&
 // Small line icon drawn above the label, picked from the label's words.
 const ICONS = [
   [/cop|police/, '<path d="M12 2.5 19.5 5.5V11c0 5-3.2 8.8-7.5 10.5C7.7 19.8 4.5 16 4.5 11V5.5Z"/><path d="m12 7.5 1.3 2.7 3 .4-2.2 2 .6 3-2.7-1.5-2.7 1.5.6-3-2.2-2 3-.4Z"/>'],
-  [/crime|charged|arrest|accused|indicted/, '<rect x="4" y="17" width="16" height="4" rx="1"/><path d="M6.5 17v-5a5.5 5.5 0 0 1 11 0v5M10 12a2 2 0 0 1 2-2M12 2v2M4.6 4.6 6 6M19.4 4.6 18 6M1.8 11.5h2M20.2 11.5h2"/>'],
-  [/clos|shut/, '<path d="M2.5 9 4.5 3.5h15L21.5 9Z"/><path d="M4 9v11.5h16V9"/><path d="M6.5 11.5h11M6.5 14h11M6.5 16.5h11M6.5 19h11"/>'],
+  [/crime|charged|arrest|accused|indicted/, '<path d="M6.5 8.5a5.5 5.5 0 0 1 11 0Z" fill="currentColor"/><path d="M5.5 8.5h13"/><path fill="currentColor" fill-rule="evenodd" stroke="none" d="M6.3 9.5h11.4a1 1 0 0 1 1 1v1.6a1 1 0 0 1-1 1H6.3a1 1 0 0 1-1-1v-1.6a1 1 0 0 1 1-1ZM9.2 10.1a1.2 1 0 1 0 0 2a1.2 1 0 1 0 0-2ZM14.8 10.1a1.2 1 0 1 0 0 2a1.2 1 0 1 0 0-2Z"/><path d="M7 13c.6 2.2 2.6 3.7 5 3.7s4.4-1.5 5-3.7M3 22.5c0-3.5 2.5-5.5 6-5.8M21 22.5c0-3.5-2.5-5.5-6-5.8"/><path d="M9.5 15.4 12 22.5l2.5-7.1"/>'],
+  [/clos|shut/, '<path d="M2.5 22V2.5h19V22M1 22h22M2.5 6h19"/><path d="M12 6.5v2M12 8.5 6.5 11.5M12 8.5l5.5 3"/><rect x="5" y="11.5" width="14" height="6.5" rx="1" fill="currentColor"/><text x="12" y="16.1" text-anchor="middle" font-family="Inter, sans-serif" font-weight="800" font-size="3.15" letter-spacing=".1" fill="#f3f1ec" stroke="none">CLOSED</text>'],
   [/restaurant|food|bar|cafe|opening|open/, '<path d="M7 2.5v19M4.5 2.5v5.5a2.5 2.5 0 0 0 5 0V2.5"/><path d="M17.5 21.5V2.5c-2.5 1.5-3.5 4.5-3.5 8.5h3.5"/>'],
   [/roach|rat|mice|bug|health/, '<ellipse cx="12" cy="14" rx="4.5" ry="6.5"/><circle cx="12" cy="6" r="2.2"/><path d="M12 7.5v13M10.5 4.2 8 2M13.5 4.2 16 2M7.6 11 3.5 9M7.5 14.5H3M7.8 17.8 4 20M16.4 11l4.1-2M16.5 14.5H21M16.2 17.8 20 20"/>'],
   [/building|construction|develop|tower|condo/, '<path d="M5 21.5V3.5M5 3.5h15M5 7h11M16 3.5V9"/><rect x="14" y="9" width="4" height="3.5"/><path d="M2.5 21.5h19M9 21.5v-8h8v8M11.5 16h3"/>'],
@@ -29,7 +29,7 @@ body { font-family: "Inter", sans-serif; background: #f3f1ec; color: #15201d;
 .top { display: flex; justify-content: space-between; align-items: center;
   font-size: 28px; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; }
 .brand { color: #1f6b5c; } .date { color: #7b8682; letter-spacing: .06em; }
-.icon { display: block; width: 120px; height: 120px; color: #1f6b5c; margin-bottom: 28px; }
+.icon { display: block; width: 136px; height: 136px; color: #1f6b5c; margin-bottom: 28px; }
 .cat { display: inline-block; font-size: 34px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase;
   color: #f3f1ec; background: #1f6b5c; padding: 10px 20px; border-radius: 6px; margin-bottom: 40px; }
 .text { font-family: "Inter Display", "Inter", sans-serif; font-weight: 700; line-height: 1.12;
