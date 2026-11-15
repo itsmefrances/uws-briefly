@@ -39,7 +39,11 @@ The run fires hourly from 6 am to 7 pm New York time and is off overnight.
      not insult a named private person or business beyond what the article reports.
 5. Render one card per story:
    `node tools/card.js editions/YYYY-MM-DD/HHMM-<n>.png "Nov 12" "<label>" "<text>" "<source(s)>"`
-   and look at it to check nothing is clipped. Save the caption next to it as `HHMM-<n>.txt`:
+   and look at it to check nothing is clipped. The card draws a small icon above the label, picked
+   from the label's words (burglar for crime, CLOSED sign for closings, and so on; see `ICONS` in
+   `tools/card.js`). The icon must read clearly at phone size. When a story's tone calls for
+   something more specific, pass custom SVG markup (24x24 viewBox, `currentColor`, same bold
+   line style) as a sixth argument; never a playful icon on a death, violence or victim story. Save the caption next to it as `HHMM-<n>.txt`:
    the text, a blank line, "Full story: link in bio.", "Reporting by <sources used>.", a blank
    line, `#upperwestside #uws #nyc`. The card and caption credit the sources by name; never put
    the GitHub address in a caption, card or the links page.

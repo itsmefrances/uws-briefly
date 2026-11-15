@@ -1,7 +1,8 @@
 // Render one story as a single 1080x1350 Instagram card.
-// Usage: node tools/card.js out.png "Nov 12" "Label" "Story text." "Source name(s)"
+// Usage: node tools/card.js out.png "Nov 12" "Label" "Story text." "Source name(s)" ["<svg inner markup>"]
+// The optional last argument replaces the automatic icon with custom SVG (24x24 viewBox, stroke = currentColor).
 const { chromium } = require('playwright');
-const [, , out, date, cat, text, src] = process.argv;
+const [, , out, date, cat, text, src, customIcon] = process.argv;
 if (!src) { console.error('usage: node tools/card.js out.png date label text source'); process.exit(1); }
 const esc = s => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 // Small line icon drawn above the label, picked from the label's words.
@@ -39,7 +40,7 @@ body { font-family: "Inter", sans-serif; background: #f3f1ec; color: #15201d;
 .foot b { color: #15201d; font-weight: 600; } .bio { color: #1f6b5c; font-weight: 600; white-space: nowrap; }
 </style></head><body>
 <div class="top"><span class="brand">UWS Briefly</span><span class="date">${esc(date)}</span></div>
-<div><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">${icon(cat)}</svg><span class="cat">${esc(cat)}</span><div class="text">${esc(text)}</div></div>
+<div><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">${customIcon || icon(cat)}</svg><span class="cat">${esc(cat)}</span><div class="text">${esc(text)}</div></div>
 <div class="foot"><span>Via <b>${esc(src)}</b></span><span class="bio">Full story: link in bio</span></div>
 </body></html>`;
 (async () => {
