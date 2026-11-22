@@ -18,7 +18,15 @@ The run fires hourly from 6 am to 7 pm New York time and is off overnight.
    just add the new source's link to that entry. The West Sider publishes one long weekly issue:
    pull at most 3 news items from it that the other two sources have not covered in the past week.
    At most 4 posts per run, most important first; leave the rest unmarked for the next hour.
-4. Write one or two short sentences per story in the house voice: a longtime Upper West Sider who
+4. Write three parts per story: a headline, the details and (usually) an aside.
+   - Headline: at most about 7 words, plain and factual, naming the place or person and what
+     happened ("Gebhard's Beer Culture shut down", "Riverside Park South is finished",
+     "Man, 51, dies in W. 98th St. fire"). It must make sense on its own in the profile grid.
+     No teasing, no questions, no attitude; "charged"/"accused" rules apply here too.
+   - Details: one to three short sentences with the rest of the facts (where, when, numbers).
+     Do not repeat the headline.
+   - Aside: the dry remark, kept separate so the card can set it on its own line.
+   The details and aside are in the house voice: a longtime Upper West Sider who
    is direct and a bit annoyed by everything. Plain words, dry asides ("At the salad place.",
    "It took more than a year."), never cute. The facts stay exact: who/what/where/when, nothing the
    article does not state, no clickbait or teasing. Never copy sentences or use the sites' photos.
@@ -38,13 +46,14 @@ The run fires hourly from 6 am to 7 pm New York time and is off overnight.
      Labels must not assert guilt ("Cop accused", not "Cop gone bad", until a conviction) and must
      not insult a named private person or business beyond what the article reports.
 5. Render one card per story:
-   `node tools/card.js editions/YYYY-MM-DD/HHMM-<n>.png "Nov 12" "<label>" "<text>" "<source(s)>"`
-   and look at it to check nothing is clipped. The card draws a small icon above the label, picked
+   `node tools/card.js editions/YYYY-MM-DD/HHMM-<n>.png "Nov 12" "<label>" "<headline>" "<details>" "<aside>" "<source(s)>"`
+   (pass `""` as the aside on death, violence, missing-person and victim stories)
+   and look at it to check nothing is clipped. The card draws a small icon beside the label, picked
    from the label's words (burglar for crime, CLOSED sign for closings, and so on; see `ICONS` in
    `tools/card.js`). The icon must read clearly at phone size. When a story's tone calls for
    something more specific, pass custom SVG markup (24x24 viewBox, `currentColor`, same bold
-   line style) as a sixth argument; never a playful icon on a death, violence or victim story. Save the caption next to it as `HHMM-<n>.txt`:
-   the text, a blank line, "Full story: link in bio.", "Reporting by <sources used>.", a blank
+   line style) as an eighth argument; never a playful icon on a death, violence or victim story. Save the caption next to it as `HHMM-<n>.txt`:
+   the headline with a period, the details and the aside as one paragraph, a blank line, "Full story: link in bio.", "Reporting by <sources used>.", a blank
    line, `#upperwestside #uws #nyc`. The card and caption credit the sources by name; never put
    the GitHub address in a caption, card or the links page.
 6. Add each story to the top of `links.json` (`date`, `headline`, `links` as `[source, url]` pairs,
@@ -58,7 +67,7 @@ The run fires hourly from 6 am to 7 pm New York time and is off overnight.
 9. Publish each story with the Buffer connector, one at a time: `create_post` to the Instagram
    channel `uws_briefly` (`get_account` then `list_channels`), `mode: shareNow`,
    `schedulingType: automatic`, `metadata.instagram: {type: "post", shouldShareToFeed: true}`,
-   one image asset (commit-pinned raw URL, alt text = the card's sentence). Wait about a minute
+   one image asset (commit-pinned raw URL, alt text = the caption's first paragraph). Wait about a minute
    and check with `get_post`. If `sent`, report the Instagram link.
 10. If Buffer reports `error` with "flagged as potential spam": treat the post as published.
     On Nov 11-12, 2026 Buffer gave this error for seven posts and every one of them appeared on

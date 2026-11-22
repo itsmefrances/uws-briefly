@@ -1,9 +1,11 @@
 // Render one story as a single 1080x1350 Instagram card.
-// Usage: node tools/card.js out.png "Nov 12" "Label" "Story text." "Source name(s)" ["<svg inner markup>"]
-// The optional last argument replaces the automatic icon with custom SVG (24x24 viewBox, stroke = currentColor).
+// Usage: node tools/card.js out.png "Nov 12" "Label" "Headline" "Details." "Aside." "Source name(s)" ["<svg inner markup>"]
+// Headline: a few big words saying what happened. Details: the facts, smaller. Aside: the dry remark, on its own
+// green line; pass "" for none. The optional last argument replaces the automatic icon with custom SVG
+// (24x24 viewBox, stroke = currentColor).
 const { chromium } = require('playwright');
-const [, , out, date, cat, text, src, customIcon] = process.argv;
-if (!src) { console.error('usage: node tools/card.js out.png date label text source'); process.exit(1); }
+const [, , out, date, cat, head, text, aside, src, customIcon] = process.argv;
+if (src === undefined || !head || !text) { console.error('usage: node tools/card.js out.png date label headline details aside source [icon]'); process.exit(1); }
 const esc = s => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 // Small line icon drawn above the label, picked from the label's words.
 const ICONS = [
@@ -21,7 +23,8 @@ const ICONS = [
   [/.*/, '<rect x="3" y="4" width="15" height="16" rx="1.5"/><path d="M18 8h3v10.5a1.5 1.5 0 0 1-3 0M6 8h9M6 11.5h9M6 15h5"/>'],
 ];
 const icon = l => ICONS.find(([re]) => re.test(l.toLowerCase()))[1];
-const size = text.length > 170 ? 62 : text.length > 110 ? 70 : text.length > 80 ? 78 : 88;
+const size = head.length > 44 ? 92 : head.length > 30 ? 108 : 124;
+const bsize = text.length > 260 ? 38 : text.length > 210 ? 41 : 44;
 const html = `<!doctype html><html><head><meta charset="utf-8"><style>
 * { box-sizing: border-box; margin: 0; }
 html, body { width: 1080px; height: 1350px; }
@@ -30,17 +33,20 @@ body { font-family: "Inter", sans-serif; background: #f3f1ec; color: #15201d;
 .top { display: flex; justify-content: space-between; align-items: center;
   font-size: 28px; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; }
 .brand { color: #1f6b5c; } .date { color: #7b8682; letter-spacing: .06em; }
-.icon { display: block; width: 136px; height: 136px; color: #1f6b5c; margin-bottom: 28px; }
+.tag { display: flex; align-items: center; gap: 28px; margin-bottom: 44px; }
+.icon { display: block; width: 120px; height: 120px; color: #1f6b5c; }
 .cat { display: inline-block; font-size: 34px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase;
-  color: #f3f1ec; background: #1f6b5c; padding: 10px 20px; border-radius: 6px; margin-bottom: 40px; }
-.text { font-family: "Inter Display", "Inter", sans-serif; font-weight: 700; line-height: 1.12;
+  color: #f3f1ec; background: #1f6b5c; padding: 10px 20px; border-radius: 6px; }
+.text { font-family: "Inter Display", "Inter", sans-serif; font-weight: 800; line-height: 1.02;
   letter-spacing: -.015em; text-wrap: balance; font-size: ${size}px; }
+.body { font-size: ${bsize}px; line-height: 1.32; font-weight: 450; color: #2b3835; margin-top: 44px; text-wrap: pretty; }
+.aside { font-size: 46px; line-height: 1.25; font-weight: 700; color: #1f6b5c; margin-top: 28px; }
 .foot { display: flex; justify-content: space-between; align-items: baseline; gap: 24px;
   font-size: 30px; color: #55625e; border-top: 3px solid #15201d; padding-top: 28px; }
 .foot b { color: #15201d; font-weight: 600; } .bio { color: #1f6b5c; font-weight: 600; white-space: nowrap; }
 </style></head><body>
 <div class="top"><span class="brand">UWS Briefly</span><span class="date">${esc(date)}</span></div>
-<div><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">${customIcon || icon(cat)}</svg><span class="cat">${esc(cat)}</span><div class="text">${esc(text)}</div></div>
+<div><div class="tag"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">${customIcon || icon(cat)}</svg><span class="cat">${esc(cat)}</span></div><div class="text">${esc(head)}</div><div class="body">${esc(text)}</div>${aside ? `<div class="aside">${esc(aside)}</div>` : ''}</div>
 <div class="foot"><span>Via <b>${esc(src)}</b></span><span class="bio">Full story: link in bio</span></div>
 </body></html>`;
 (async () => {
