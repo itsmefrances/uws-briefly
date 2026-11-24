@@ -23,7 +23,7 @@ const ICONS = [
   [/.*/, '<rect x="3" y="4" width="15" height="16" rx="1.5"/><path d="M18 8h3v10.5a1.5 1.5 0 0 1-3 0M6 8h9M6 11.5h9M6 15h5"/>'],
 ];
 const icon = l => ICONS.find(([re]) => re.test(l.toLowerCase()))[1];
-const size = head.length > 44 ? 92 : head.length > 30 ? 108 : 124;
+const size = head.length > 36 ? 92 : head.length > 26 ? 108 : 124;
 const bsize = text.length > 260 ? 38 : text.length > 210 ? 41 : 44;
 const html = `<!doctype html><html><head><meta charset="utf-8"><style>
 * { box-sizing: border-box; margin: 0; }
