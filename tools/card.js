@@ -53,6 +53,20 @@ body { font-family: "Inter", sans-serif; background: #f3f1ec; color: #15201d;
   const b = await chromium.launch();
   const p = await b.newPage({ viewport: { width: 1080, height: 1350 }, deviceScaleFactor: 1 });
   await p.setContent(html, { waitUntil: 'load' });
+  // Shrink the headline and details a step at a time until everything fits with room above the rule.
+  await p.evaluate(() => {
+    const mid = document.body.children[1], foot = document.querySelector('.foot');
+    const top = document.querySelector('.top');
+    const fits = () => mid.getBoundingClientRect().bottom <= foot.getBoundingClientRect().top - 40
+      && mid.getBoundingClientRect().top >= top.getBoundingClientRect().bottom + 40;
+    const px = el => parseFloat(getComputedStyle(el).fontSize);
+    const head = document.querySelector('.text'), body = document.querySelector('.body'), aside = document.querySelector('.aside');
+    for (let i = 0; i < 12 && !fits(); i++) {
+      head.style.fontSize = px(head) - 4 + 'px';
+      body.style.fontSize = px(body) - 1.5 + 'px';
+      if (aside) aside.style.fontSize = px(aside) - 1.5 + 'px';
+    }
+  });
   await p.screenshot({ path: out });
   await b.close();
   console.log(out);
